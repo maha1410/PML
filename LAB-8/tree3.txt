@@ -1,0 +1,20 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="milk <= 0.5\nsamples = 67\nvalue = [29, 14, 1, 6, 3, 6, 8]\nclass = 1", fillcolor="#f8dbc7"] ;
+1 [label="feathers <= 0.5\nsamples = 38\nvalue = [0, 14, 1, 6, 3, 6, 8]\nclass = 2", fillcolor="#f1fad7"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="fins <= 0.5\nsamples = 24\nvalue = [0, 0, 1, 6, 3, 6, 8]\nclass = 7", fillcolor="#fce9f2"] ;
+1 -> 2 ;
+3 [label="airborne <= 0.5\nsamples = 18\nvalue = [0, 0, 1, 0, 3, 6, 8]\nclass = 7", fillcolor="#fbdeeb"] ;
+2 -> 3 ;
+4 [label="samples = 13\nvalue = [0, 0, 1, 0, 3, 1, 8]\nclass = 7", fillcolor="#f29cc2"] ;
+3 -> 4 ;
+5 [label="samples = 5\nvalue = [0, 0, 0, 0, 0, 5, 0]\nclass = 6", fillcolor="#b139e5"] ;
+3 -> 5 ;
+6 [label="samples = 6\nvalue = [0, 0, 0, 6, 0, 0, 0]\nclass = 4", fillcolor="#39e5e2"] ;
+2 -> 6 ;
+7 [label="samples = 14\nvalue = [0, 14, 0, 0, 0, 0, 0]\nclass = 2", fillcolor="#b7e539"] ;
+1 -> 7 ;
+8 [label="samples = 29\nvalue = [29, 0, 0, 0, 0, 0, 0]\nclass = 1", fillcolor="#e58139"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

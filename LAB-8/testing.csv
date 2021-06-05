@@ -1,0 +1,4 @@
+Name,Toothed,Hair,Breathes,Legs,Species
+Turtile,FALSE,FALSE,TRUE,FALSE,Reptile
+Blue Whales,FALSE,TRUE,TRUE,TRUE,Mammal
+Crocodile,TRUE,FALSE,TRUE,TRUE,Reptile

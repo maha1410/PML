@@ -1,0 +1,8 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="Hair <= 0.5\nsamples = 10\nvalue = [6, 4]\nclass = Mammal", fillcolor="#f6d5bd"] ;
+1 [label="samples = 4\nvalue = [0, 4]\nclass = Repite", fillcolor="#399de5"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="samples = 6\nvalue = [6, 0]\nclass = Mammal", fillcolor="#e58139"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
